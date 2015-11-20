@@ -13,8 +13,8 @@
 }
 .item {
   height: 50px;
-  border-bottom: 1px solid #bbb;
-  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #a0a0a0;
+  border-right: 1px solid #a0a0a0;
   font-size: 25px;
   text-align: center;
   vertical-align: middle;

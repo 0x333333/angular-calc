@@ -3,7 +3,7 @@
 ## Install
 
 ```
-bower Install
+npm install
+bower install
+gulp
 ```
-
-## Demo
