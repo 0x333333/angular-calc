@@ -52,3 +52,5 @@ npm install && gulp
 ```
 
 ## Demo
+
+[http://zp-j.github.io/projects/angular_calc/](http://zp-j.github.io/projects/angular_calc/)
