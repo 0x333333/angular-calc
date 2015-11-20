@@ -1,6 +1,6 @@
 {
   "name": "angular-calc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/calc.min.js",
   "repository": {
     "type": "git",
