@@ -1,0 +1,45 @@
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../src/calc.min.css">
+</head>
+<body>
+  <div class="calc">
+    <div class="result">{{data.result}}</div>
+    <div class="func">{{data.func}}</div>
+    <div class="keys">
+      <div class="left">
+        <div class="row">
+          <div class="item keyClear" ng-click="press(16)">C</div>
+          <div class="item keyPandM" ng-click="press(17)">+/-</div>
+          <div class="item keyPerc" ng-click="press(18)">%</div>
+        </div>
+        <div class="row">
+          <div class="item key7" ng-click="press(7)">7</div>
+          <div class="item key8" ng-click="press(8)">8</div>
+          <div class="item key9" ng-click="press(9)">9</div>
+        </div>
+        <div class="row">
+          <div class="item key4" ng-click="press(4)">4</div>
+          <div class="item key5" ng-click="press(5)">5</div>
+          <div class="item key6" ng-click="press(6)">6</div>
+        </div>
+        <div class="row">
+          <div class="item key1" ng-click="press(1)">1</div>
+          <div class="item key2" ng-click="press(2)">2</div>
+          <div class="item key3" ng-click="press(3)">3</div>
+        </div>
+        <div class="row">
+          <div class="item key0" ng-click="press(0)">0</div>
+          <div class="item keyDot" ng-click="press(10)">.</div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="item keyDiv" ng-click="press(11)">÷</div>
+        <div class="item keyMul" ng-click="press(12)">x</div>
+        <div class="item keyMin" ng-click="press(13)">-</div>
+        <div class="item keyPlu" ng-click="press(14)">+</div>
+        <div class="item keyEqu" ng-click="press(15)">=</div>
+      </div>
+    </div>
+  </div>
+</body>

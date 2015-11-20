@@ -1,0 +1,73 @@
+.calc {
+  width: 256px;
+  height: 347px;
+  background: RGB(217,217,217);
+  font-family: sans-serif;
+  font-weight: 100;
+  cursor: default;
+}
+
+.row {
+  display: flex;
+}
+
+.item {
+  height: 50px;
+  border-bottom: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.result {
+  font-size: 45px;
+  padding: 10px 10px 0;
+  text-align: right;
+  vertical-align: middle;
+  color: white;
+  background: RGB(135,135,135);
+}
+
+.func {
+  height: 25px;
+  padding: 0 10px 5px;
+  font-size: 20px;
+  text-align: right;
+  vertical-align: middle;
+  color: white;
+  background: RGB(135,135,135);
+}
+
+.keys {
+  display: flex;
+  .left {
+    color: black;
+    flex: 3;
+    .keyClear, .keyPandM, .keyPerc,
+    .key1, .key2, .key3,
+    .key4, .key5, .key6,
+    .key7, .key8, .key9, .keyDot {
+      flex: 1;
+    }
+    .key0 {
+      flex: 2;
+    }
+    .item {
+      &:active{
+        background: RGB(163,163,163);
+      }
+    }
+  }
+  .right {
+    flex: 1;
+    background: RGB(243,127,38);
+    color: white;
+    .item {
+      &:active{
+        background: RGB(181,95,28);
+      }
+    }
+  }
+}
