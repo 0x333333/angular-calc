@@ -27,7 +27,7 @@ Include three files in your html:
     <div ng-controller="RootCtrl">
       <div ez-calc="data"></div>
     </div>
-    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../node_modules/angular/angular.min.js"></script>
     <script src="../src/calc.min.js"></script>
     <script src="../src/calc.tpl.js"></script>
     <script>
@@ -42,14 +42,13 @@ Include three files in your html:
   </body>
 </html>
 
+
 ```
 
 ## Build
 
 ```
-npm install
-bower install
-gulp
+npm install && gulp
 ```
 
 ## Demo
