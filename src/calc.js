@@ -9,7 +9,7 @@ angular.module('ez.calc', [])
     scope: {
       data: '=ezCalc'
     },
-    templateUrl: '../src/calc.html',
+    templateUrl: 'calc.html',
     link: function($scope, element, attrs) {
       $scope.data = {
         result: 0,
