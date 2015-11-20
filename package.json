@@ -1,7 +1,7 @@
 {
   "name": "angular-calc",
   "version": "0.1.1",
-  "main": "gulpfile.js",
+  "main": "src/calc.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zp-j/angular-calc.git"
@@ -28,7 +28,6 @@
     "http-server": "^0.6.1"
   },
   "scripts": {
-    "postinstall": "bower install",
     "prestart": "npm install",
     "start": "gulp"
   }
