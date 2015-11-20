@@ -1,4 +1,8 @@
-# angular-calc
+Angular-calc
+============
+
+[![npm version](https://badge.fury.io/js/angular-calc.svg)](https://badge.fury.io/js/angular-calc)
+[![Bower version](https://badge.fury.io/bo/angular-calc.svg)](https://badge.fury.io/bo/angular-calc)
 
 An OSX-like calculator plugin for AngularJS.
 
