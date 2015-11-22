@@ -5,9 +5,13 @@
     <link rel="stylesheet" href="index.min.css">
     <link rel="stylesheet" href="../src/calc.min.css">
   </head>
-  <body>
-    <div ng-controller="RootCtrl">
+  <body ng-controller="RootCtrl">
+    <div>
       <div ez-calc="data"></div>
+    </div>
+    <div class="information">
+      result: {{data.result}} <br>
+      function: {{data.func}}
     </div>
     <script src="../node_modules/angular/angular.min.js"></script>
     <script src="../src/calc.min.js"></script>
@@ -15,6 +19,7 @@
     <script>
     angular.module('Calc', ['ez.calc'])
     .controller('RootCtrl', ['$scope', function($scope) {
+      _scope = $scope;
       $scope.data = {
         result: 0,
         func: ''
